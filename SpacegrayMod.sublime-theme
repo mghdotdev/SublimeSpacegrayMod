@@ -65,7 +65,7 @@
         "class": "tabset_control",
         "layer0.opacity": 1,
         "tint_index": 0,
-        "layer1.texture": "Theme - Spacegray/Spacegray/tabset_background.png",
+        "layer1.texture": "SpacegrayMod/Spacegray/tabset_background.png",
         "layer1.inner_margin": [2, 6],
         "layer1.opacity": 1,
         "content_margin": [3, 0, 3, 1],
@@ -80,25 +80,25 @@
         "class": "tabset_control",
         "attributes": ["file_dark"],
         "layer1.opacity": 1,
-        "layer1.texture": "Theme - Spacegray/Spacegray/dark_tabset_background.png"
+        "layer1.texture": "SpacegrayMod/Spacegray/dark_tabset_background.png"
     },
     {
         "class": "tabset_control",
         "attributes": ["file_medium"],
         "layer1.opacity": 1,
-        "layer1.texture": "Theme - Spacegray/Spacegray/medium_tabset_background.png"
+        "layer1.texture": "SpacegrayMod/Spacegray/medium_tabset_background.png"
     },
     {
         "class": "tabset_control",
         "attributes": ["file_medium_dark"],
         "layer1.opacity": 1,
-        "layer1.texture": "Theme - Spacegray/Spacegray/medium_dark_tabset_background.png"
+        "layer1.texture": "SpacegrayMod/Spacegray/medium_dark_tabset_background.png"
     },
 
     // Tab element
     {
         "class": "tab_control",
-        "layer0.texture": "Theme - Spacegray/Spacegray/tab_mask.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/tab_mask.png",
         "layer0.inner_margin": [22, 4],
         "layer0.opacity": 1,
         "tint_index": 0,
@@ -115,61 +115,61 @@
     {
         "class": "tab_control",
         "attributes": ["file_light"],
-        "layer2.texture": "Theme - Spacegray/Spacegray/light_unselected_tab_bg.png",
+        "layer2.texture": "SpacegrayMod/Spacegray/light_unselected_tab_bg.png",
         "layer2.opacity": 0
     },
     {
         "class": "tab_control",
         "attributes": ["file_medium"],
-        "layer2.texture": "Theme - Spacegray/Spacegray/medium_unselected_tab_bg.png",
+        "layer2.texture": "SpacegrayMod/Spacegray/medium_unselected_tab_bg.png",
         "layer2.opacity": 1
     },
     {
         "class": "tab_control",
         "attributes": ["file_medium_dark"],
         "tint_modifier": [255, 255, 255, 24],
-        "layer2.texture": "Theme - Spacegray/Spacegray/medium_dark_unselected_tab_bg.png",
+        "layer2.texture": "SpacegrayMod/Spacegray/medium_dark_unselected_tab_bg.png",
         "layer2.opacity": 1
     },
     {
         "class": "tab_control",
         "attributes": ["file_dark"],
         "tint_modifier": [255, 255, 255],
-        "layer0.texture": "Theme - Spacegray/Spacegray/dark_tab_mask.png",
-        "layer2.texture": "Theme - Spacegray/Spacegray/transparent_selected_tab_bg.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/dark_tab_mask.png",
+        "layer2.texture": "SpacegrayMod/Spacegray/transparent_selected_tab_bg.png",
         "layer2.opacity": 1
     },
     // Selected background
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/tab_mask_white.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/tab_mask_white.png",
         "layer1.opacity": 0
     },
     {
         "class": "tab_control",
         "attributes": ["selected", "file_light"],
-        "layer2.texture": "Theme - Spacegray/Spacegray/transparent_selected_tab_bg.png",
+        "layer2.texture": "SpacegrayMod/Spacegray/transparent_selected_tab_bg.png",
         "layer2.opacity": 1
     },
     {
         "class": "tab_control",
         "attributes": ["selected", "file_medium"],
-        "layer2.texture": "Theme - Spacegray/Spacegray/transparent_selected_tab_bg.png",
+        "layer2.texture": "SpacegrayMod/Spacegray/transparent_selected_tab_bg.png",
         "layer2.opacity": 1
     },
     {
         "class": "tab_control",
         "attributes": ["selected", "file_medium_dark"],
         "tint_modifier": [0, 0, 0, 0],
-        "layer2.texture": "Theme - Spacegray/Spacegray/transparent_selected_tab_bg.png",
+        "layer2.texture": "SpacegrayMod/Spacegray/transparent_selected_tab_bg.png",
         "layer2.opacity": 1
     },
     {
         "class": "tab_control",
         "attributes": ["selected", "file_dark"],
         "tint_modifier": [0, 0, 0, 0],
-        "layer2.texture": "Theme - Spacegray/Spacegray/transparent_selected_tab_bg.png",
+        "layer2.texture": "SpacegrayMod/Spacegray/transparent_selected_tab_bg.png",
         "layer2.opacity": 1,
         "layer0.opacity": 1
     },
@@ -181,7 +181,7 @@
     // Tab close button
     {
         "class": "tab_close_button",
-        "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/close.png",
         "layer0.opacity": 1,
         "layer0.tint": [101, 115, 126] // 03
     },
@@ -193,7 +193,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/close.png",
         "layer0.opacity": 1
     },
     {
@@ -212,7 +212,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/circle.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/circle.png",
         "layer0.tint": [235, 203, 139], // 0A
         "layer0.opacity": 1
     },
@@ -226,7 +226,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/close.png",
         "attributes": ["hover"],
         "layer0.opacity": 1,
         "layer0.tint": [191, 97, 106] // 08
@@ -359,7 +359,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/folder-closed.png",
         "layer0.tint": [167, 173, 186], // 04
         "layer0.opacity": 0.5,
         "layer0.inner_margin": 0,
@@ -373,7 +373,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
+        "layer0.texture": "SpacegrayMod/Spacegray/folder-open.png"
     },
     {
         "class": "fold_button_control",
@@ -725,7 +725,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/close.png",
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
         "layer0.tint": [101, 115, 126], // 03
@@ -745,7 +745,7 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/circle.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/circle.png",
         "layer0.opacity": 1,
         "layer0.tint": [235, 203, 139] // 0A
     },
@@ -753,7 +753,7 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/circle.png"
+        "layer0.texture": "SpacegrayMod/Spacegray/circle.png"
     },
     // Sidebar file close hover
     {
@@ -765,7 +765,7 @@
         "class": "close_button",
         "attributes": ["dirty", "hover"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/close.png",
         "layer0.tint": [191, 97, 106] // 08
     },
 
@@ -777,7 +777,7 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [8,8],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/folder-closed.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
@@ -795,7 +795,7 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
+        "layer0.texture": "SpacegrayMod/Spacegray/folder-open.png"
     },
     {
         "class": "disclosure_button_control",
@@ -806,7 +806,7 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
+        "layer0.texture": "SpacegrayMod/Spacegray/folder-open.png"
     },
 
 //
@@ -1041,7 +1041,7 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - Spacegray/Spacegray/regex.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/regex.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1055,7 +1055,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Spacegray/Spacegray/casesens.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/casesens.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1068,7 +1068,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Spacegray/Spacegray/wholeword.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/wholeword.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1086,7 +1086,7 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - Spacegray/Spacegray/context.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/context.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1099,7 +1099,7 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Spacegray/Spacegray/buffer.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/buffer.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1116,7 +1116,7 @@
     // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - Spacegray/Spacegray/reverse.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/reverse.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1129,7 +1129,7 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - Spacegray/Spacegray/wrap.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/wrap.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1142,7 +1142,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Spacegray/Spacegray/selection.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/selection.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1160,7 +1160,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Spacegray/Spacegray/lock.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/lock.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1178,7 +1178,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - Spacegray/Spacegray/highlight.png",
+        "layer0.texture": "SpacegrayMod/Spacegray/highlight.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
